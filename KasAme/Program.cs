@@ -14,6 +14,7 @@ namespace KasAme
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
             double F = 5 * Math.Cos(2 * x);
+            Console.WriteLine($"Для значения x = {x}, F = {F}.");
 
         }
     }
