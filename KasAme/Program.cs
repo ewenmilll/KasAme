@@ -13,6 +13,8 @@ namespace KasAme
             Console.Write("Введите значение параметра x = ");
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
+            double F = 5 * Math.Cos(2 * x);
+
         }
     }
 }
